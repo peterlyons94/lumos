@@ -1,0 +1,67 @@
+#about-container{
+
+}
+
+#team-wrapper{
+	background-color: #1C658A;
+}
+#team-container{
+	color: white;
+	text-align: center;
+}
+
+#masthead{
+	/*
+	background-color: #122f7f;
+	min-height: 500px;
+	position: relative;
+	text-align: left;
+	padding-top: 100px;
+*/
+    background-color: rgba(0,0,0,0.5);
+	background: url("../img/lumos-img.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:70vh;
+
+}
+
+#masthead > .container{
+	color: white;
+}
+
+#transparent{
+	background:#7f7f7f;
+	background-color: rgba(0,0,0,0.72);
+}
+
+#transparent-main{
+	background:#7f7f7f;
+	background-color: rgba(0,0,0,0.77);
+	padding: 20px;
+	margin-top: 50px;
+}
+
+#about-heading > h1{
+	text-align: center;
+}
+
+#about-info{
+	text-align: center;
+}
+
+.footer{
+	background-color: #333;
+	
+}
+
+#team-featurette{
+	margin-top: 5px;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
