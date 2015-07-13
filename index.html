@@ -13,7 +13,7 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/sticky-footer.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Anton|Maven+Pro:400,900,700,500|Exo+2' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,23 +23,25 @@
     <![endif]-->
 </head>
 <body>
-	<div id="masthead">
+	<div id="masthead" >
 		<!--TODO Menu Bar -->
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <a class="navbar-brand" href="#">
-		        <img alt="Lumos" src="">
+		        <img alt="Lumos" src="img/navbar-logo.png" height="30vh">
 		      </a>
 		    </div>
-		    <ul class="nav navbar-nav">
-		    	<li><a href="#">Blog</a></li>
+		    <ul class="nav navbar-nav navbar-right">
+		    	<li id="blog"><a href="#">Blog</a></li>
 		    </ul>
 		  </div>
 		</nav>
-		<div class="container" id="transparent-main">
-			<h1>Welcome!</h1>
-			<h3>We are Lumos, and we have created a naturally caffeinated energy strip</h3>
+		<div class="container">
+			<div align="center" style="padding-top: 5vh">
+				<img alt="Lumos" src="img/navbar-logo.png" align="middle" height="60%" width="60%">
+			</div>
+			<h2 class="text-center" id="slogan">The future of caffeine</h2>
 		</div>
 
 	</div>
@@ -75,6 +77,7 @@
 		</div>
 	</div>
 
+<!-- Featurette Container-->
 	<div class="container">
 		<hr class="featurette-divider">
 		<div class="row featurette">
@@ -85,73 +88,138 @@
 			<div class="col-md-5">
 				<img class="featurette-image img-responsive center-block" src="img/wildberry.png" alt="Generic placeholder image" height="75%" width="75%">
 			</div>
-  		</div
->  		<hr class="featurette-divider">
+  		</div>
+  		<hr class="featurette-divider">
 
 		<div class="row featurette">
 			<div class="col-md-7 col-md-push-5">
 		  		<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
 		  		<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 			</div>
+		</div>
 		<div class="col-md-5 col-md-pull-7">
 		  	<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
 		</div>
-</div>
+	</div>
 
-    </div>	
 <!--TODO Email Form -->
-<br>
-<br>
-
-<!--TODO About team -->
-<div id="team-wrapper">
-	<div class="container" id="team-container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>The Team</h1>
-			</div>
-		</div>
-		<hr class="featurette-divider" id="team-featurette">
-		<div class="row">
-			<div class="col-md-4">
-				<img class="img-circle" src="img/lexi.jpg" alt="Generic placeholder image" width="140" height="140">
-				<h2>Lexi Kaplin</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img-circle" src="img/peter.jpg" alt="Generic placeholder image" width="140" height="140">
-				<h2>Peter Lyons</h2>
-				<h5 class="muted" style="small">Co-Founder</h5>
-				<p>Peter Lyons is a 4th year computer engineering student at Queen's University. </p>
-			</div>
-			<div class="col-md-4">
-				<img class="img-circle" src="img/heather.jpg" alt="Generic placeholder image" width="140" height="140">
-				<h2>Heather Wilcocks-Gynn</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-			</div>
-		</div>
+	<div id="newsletter">
 		<br>
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-4">
-				<img class="img-circle" src="img/toby.jpg" alt="Generic placeholder image" width="140" height="140">
-				<h2>Tobias Macfarlane</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+		<div class="container" id="newsletter">
+			<div class="row">
+		        <div class="col-md-4 col-md-offset-4" id="newsletter">
+		    		<div class="text-center" id="newsletter">
+		                <h1>Stay Tuned</h1>
+		                <p>Interested? Sign up here to be the first to try Lumos energy strips</p>
+		                <form action="" method="post" role="form" id="newsletter">
+		                    <div class="input-group">
+		                      <span class="input-group-addon">
+		                        <i class="glyphicon glyphicon-envelope"></i>
+		                      </span>
+		                      <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+		                    </div>
+		                    <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
+		              </form>
+		              <br>
+		            </div>    
+		        </div>
 			</div>
-			<div class="col-md-4">
-				<img class="img-circle" src="img/chris.jpg" alt="Generic placeholder image" width="140" height="140">
-				<h2>Chris Angelatos</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-			</div>
-			<div class="col-md-2"></div>
 		</div>
 	</div>
-</div>
 
-<footer class="footer">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2015 Lumos &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-</footer>
+<!--TODO team -->
+	<div id="team-wrapper">
+		<div class="container" id="team-container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 id=""style="font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500 " >The Team</h1>
+				</div>
+			</div>
+			<!--
+			<hr class="featurette-divider" id="team-featurette">
+			-->
+			<div class="col-md-12 centered">
+				<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+			  		<li class="active"><a href="#peter" data-toggle="tab"><img class="img-circle" src="img/peter.jpg" height="120vh"></a></li>
+			 		<li role="presentation"><a href="#heather" data-toggle="tab"><img class="img-circle" src="img/heather.jpg" height="120vh"></a></li>
+			  		<li role="presentation"><a href="#lexi" data-toggle="tab"><img class="img-circle" src="img/lexi.jpg" height="120vh"></a></li>
+			  		<li role="presentation"><a href="#chris" data-toggle="tab"><img class="img-circle" src="img/chris.jpg" height="120vh"></a></li>
+			  		<li role="presentation"><a href="#toby" data-toggle="tab"><img class="img-circle" src="img/toby.jpg" height="120vh"></a></li>
+				</ul>
+			</div>
+
+			<div class="tab-content">
+				<div class="tab-pane active" id="peter">
+					<p></p>
+					<h2>Peter Lyons</h2>
+					<h5 class="muted" style="small">Co-Founder</h5>
+					<p>Peter Lyons is a 4th year computer engineering student at Queen's University. </p>
+				</div>
+				<div class="tab-pane" id="heather">
+					<h2>Heather Wilcocks-Gynn</h2>
+					<h5 class="muted" style="small">Co-Founder</h5>
+					<p>meow meow BKKKAKAAWWWWK</p>
+				</div>
+				<div class="tab-pane" id="lexi">
+					<h2>Lexi Kaplin</h2>
+					<h5 class="muted" style="small">Co-Founder</h5>
+					<p>meow meow BKKKAKAAWWWWK</p>
+				</div>
+				<div class="tab-pane" id="chris">
+					<h2>Chris Angelatos</h2>
+					<h5 class="muted" style="small">Co-Founder</h5>
+					<p>meow meow BKKKAKAAWWWWK</p>
+				</div>
+				<div class="tab-pane" id="toby">
+					<h2>Tobias Macfarlane</h2>
+					<h5 class="muted" style="small">Co-Founder</h5>
+					<p>meow meow BKKKAKAAWWWWK</p>
+				</div>
+			</div>
+
+	<!--
+			<div class="row">
+				<div class="col-md-4">
+					<img class="img-circle" src="img/lexi.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h2>Lexi Kaplin</h2>
+					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-circle" src="img/peter.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h2>Peter Lyons</h2>
+					<h5 class="muted" style="small">Co-Founder</h5>
+					<p>Peter Lyons is a 4th year computer engineering student at Queen's University. </p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-circle" src="img/heather.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h2>Heather Wilcocks-Gynn</h2>
+					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<img class="img-circle" src="img/toby.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h2>Tobias Macfarlane</h2>
+					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-circle" src="img/chris.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h2>Chris Angelatos</h2>
+					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div> -->
+		</div>
+	</div>
+		<footer class="footer">
+			<div class="container">
+			    <p class="pull-right"><a href="#">Back to top</a></p>
+			    <p>&copy; 2015 Lumos &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			</div>
+		</footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

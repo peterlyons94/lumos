@@ -5,9 +5,19 @@
 #team-wrapper{
 	background-color: #1C658A;
 }
+
+#team-container > .row > .col-md-4 > h2{
+	font-family: 'Maven Pro', sans-serif; 
+	font-weight: 400 
+}
 #team-container{
 	color: white;
 	text-align: center;
+}
+
+#slogan{
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
 }
 
 #masthead{
@@ -18,7 +28,7 @@
 	text-align: left;
 	padding-top: 100px;
 */
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
 	background: url("../img/lumos-img.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,6 +36,9 @@
     background-size: cover;
     min-height:70vh;
 
+}
+input.btn-primary {
+  margin-top: 15px;
 }
 
 #masthead > .container{
@@ -39,7 +52,7 @@
 
 #transparent-main{
 	background:#7f7f7f;
-	background-color: rgba(0,0,0,0.77);
+	background-color: rgba(0,0,0,0.6);
 	padding: 20px;
 	margin-top: 50px;
 }
@@ -52,6 +65,10 @@
 	text-align: center;
 }
 
+#about-info > .col-md-4 > h2{
+	font-family: 'Maven Pro', sans-serif; 
+	font-weight: 500 
+}
 .footer{
 	background-color: #333;
 	
@@ -62,6 +79,38 @@
 }
 
 h1{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	font-weight: 600;
+}
+
+#blog{
+	font-family: 'Maven Pro', sans-serif;
+	color: white;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+#blog > a{
+	color: white;
+}
+
+/* Still need to fix the hover over color*/
+#blog :active {
+	background-color: black;
+}
+
+#newsletter{
+	background-color: #555;
+	color: white;
+}
+#newsletter > h1 {
+	font-family: 'Maven Pro', sans-serif; 
+	font-weight: 400 
+}
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
+#peter{
+	padding-top: 20px;
 }
