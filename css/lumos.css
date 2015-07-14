@@ -1,18 +1,36 @@
 #about-container{
 
 }
-
-#team-wrapper{
-	background-color: #1C658A;
+#team-container{
+    background:#7f7f7f;
+	background-color: rgba(0,0,0,0.77);
+	padding: 20px;
+	margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#team-container > .row > .col-md-4 > h2{
+
+#names{
 	font-family: 'Maven Pro', sans-serif; 
-	font-weight: 400 
+	font-weight: 300;
+	font-size: 18px;
+}
+#long-name{
+	font-family: 'Maven Pro', sans-serif; 
+	font-weight: 300;
+	font-size: 15px;
+    padding-top: 2px;
+}
+
+#team-container > .row > .col-md-2 > h5{
+	font-family: 'Maven Pro', sans-serif; 
+	font-weight: 200;
+
 }
 #team-container{
 	color: white;
 	text-align: center;
+    
 }
 
 #slogan{
@@ -69,9 +87,9 @@ input.btn-primary {
 	font-family: 'Maven Pro', sans-serif; 
 	font-weight: 500 
 }
-.footer{
-	background-color: #333;
-	
+#footer{
+
+	background-color: white;
 }
 
 #team-featurette{
@@ -95,22 +113,66 @@ h1{
 }
 
 /* Still need to fix the hover over color*/
-#blog :active {
+#blog  :active{
 	background-color: black;
 }
 
 #newsletter{
-	background-color: #555;
-	color: white;
-}
-#newsletter > h1 {
-	font-family: 'Maven Pro', sans-serif; 
-	font-weight: 400 
-}
+ 	min-height: 25vh;
+ 	background-color: #999;
+ }
+
+ #mc_embed_signup{
+ 	background-color: #999;
+ }
 
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 @import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
 
 #peter{
 	padding-top: 20px;
+}
+
+#mc-embedded-subscribe-form{
+	background: url("../img/stars.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#transparent-newsletter{
+	background:#7f7f7f;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#newsletter-p{
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
+#news-heading{
+	font-size: 64px;
+	color: #333;
+}
+
+#packaging{
+    padding-top: 35px; 
+}
+
+html * {
+    font-family: 'Maven Pro';
+}
+
+#newsletter{
+    background-color: rgba(0,0,0,0.5);
+	background: url("../img/stars.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }

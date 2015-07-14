@@ -12,8 +12,16 @@
     <link href="css/lumos.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/sticky-footer.css" rel="stylesheet">
+	<link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Anton|Maven+Pro:400,900,700,500|Exo+2' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{clear:left;}
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +49,7 @@
 			<div align="center" style="padding-top: 5vh">
 				<img alt="Lumos" src="img/navbar-logo.png" align="middle" height="60%" width="60%">
 			</div>
-			<h2 class="text-center" id="slogan">The future of caffeine</h2>
+			<h2 class="text-center" id="slogan">The future of caffeine.</h2>
 		</div>
 
 	</div>
@@ -59,20 +67,25 @@
 		-->
 		<br>
 		<div class="row" id="about-info">
-			<div class="col-md-4">
-				<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+			<div class="col-md-3">
+				<img src="img/sugar_icon.png" alt="Generic placeholder image" width="140" height="140">
 				<h2>Natural</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				<p>Instead of sugar, natural and powerful stevia extract is used to sweeten Lumos.</p>
 			</div>
-			<div class="col-md-4">
-				<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+			<div class="col-md-3">
+				<img src="img/check_icon.png" alt="Generic placeholder image" width="140" height="140">
 				<h2>Healthy</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				<p>Error 404: No calories found in strip. Just kidding its not an error. You’re welcome. </p>
 			</div>
-			<div class="col-md-4">
-				<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+			<div class="col-md-3">
+				<img class="img-circle" src="img/coffee_cup_icon.png" alt="Generic placeholder image" width="140" height="140">
+				<h2>Powerful</h2>
+				<p>Each strip contains caffeine equivalent to 1/2 cup of coffee, at a kick of 40 mg per strip.</p>
+			</div>
+			<div class="col-md-3">
+				<img src="img/plus_icon.png" alt="Generic placeholder image" width="140" height="140">
 				<h2>Effective</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				<p>Fast acting is our middle name.Thanks to the dissolving absorption,Lumos hits you twice as fast.</p>
 			</div>
 		</div>
 	</div>
@@ -81,145 +94,116 @@
 	<div class="container">
 		<hr class="featurette-divider">
 		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque 	nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<div class="col-md-4">
+				<h2 class="featurette-heading">wildberry // mint // caramel macchiato</h2>
+				<p class="lead">Pocket sized packs, Lumos goes where you go. These thin strips dissolve on your tongue, and 
+punch far above their weight class in caffeine, and in flavour.</p>
 			</div>
-			<div class="col-md-5">
-				<img class="featurette-image img-responsive center-block" src="img/wildberry.png" alt="Generic placeholder image" height="75%" width="75%">
+			<div class="col-md-8">
+				<img class="featurette-image img-responsive center-block" src="img/packaging.png" alt="Generic placeholder image" id="packaging" >
 			</div>
   		</div>
   		<hr class="featurette-divider">
 
 		<div class="row featurette">
 			<div class="col-md-7 col-md-push-5">
-		  		<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-		  		<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		  		<h2 class="featurette-heading">The three G's of <span class="text-muted">natural caffeine.</span></h2>
+		  		<p class="lead">A blend of green coffee extract, guarana, and green tea extract, come together to deliver
+the energy boost you’ve been waiting for.</p>
 			</div>
+            <div class="col-md-5 col-md-pull-7">
+		  	   <img class="featurette-image img-responsive center-block" src="img/extract_icon.png" alt="Generic placeholder image">
+            </div>
 		</div>
-		<div class="col-md-5 col-md-pull-7">
-		  	<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-		</div>
+
 	</div>
 
 <!--TODO Email Form -->
-	<div id="newsletter">
-		<br>
-		<div class="container" id="newsletter">
-			<div class="row">
-		        <div class="col-md-4 col-md-offset-4" id="newsletter">
-		    		<div class="text-center" id="newsletter">
-		                <h1>Stay Tuned</h1>
-		                <p>Interested? Sign up here to be the first to try Lumos energy strips</p>
-		                <form action="" method="post" role="form" id="newsletter">
-		                    <div class="input-group">
-		                      <span class="input-group-addon">
-		                        <i class="glyphicon glyphicon-envelope"></i>
-		                      </span>
-		                      <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
-		                    </div>
-		                    <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
-		              </form>
-		              <br>
-		            </div>    
-		        </div>
-			</div>
+
+<!-- Begin MailChimp Signup Form -->
+<div id="newsletter"> 
+	<div class="container" id="newsletter">
+		<div id="mc_embed_signup">
+			<form action="//lumosenergy.us11.list-manage.com/subscribe/post?u=32384dbcec15cbe35f458a753&amp;id=4ce782bd35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+                    <div class="col-md-5 col-md-offset-3" id="transparent-newsletter" style="background-color: rgba(0,0,0,0.77);">
+                        <div class="row">
+                            <div class="col-md-12 text-center">	
+                                <label for="mce-EMAIL"><h1 id="news-heading" class="text-center" style="color: white">Stay Tuned</h1></label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p id="newsletter-p" class="text-center" style="color:white;">We'll let you know when our product is available for order!</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="you@email.com" required>
+                            </div>
+                            <div class="col-md-3">
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_32384dbcec15cbe35f458a753_4ce782bd35" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</form>
 		</div>
 	</div>
+
+
+<!--End mc_embed_signup-->
 
 <!--TODO team -->
 	<div id="team-wrapper">
 		<div class="container" id="team-container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 id=""style="font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500 " >The Team</h1>
+					<h1 style="font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; " >The Team</h1>
 				</div>
 			</div>
-			<!--
-			<hr class="featurette-divider" id="team-featurette">
-			-->
-			<div class="col-md-12 centered">
-				<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-			  		<li class="active"><a href="#peter" data-toggle="tab"><img class="img-circle" src="img/peter.jpg" height="120vh"></a></li>
-			 		<li role="presentation"><a href="#heather" data-toggle="tab"><img class="img-circle" src="img/heather.jpg" height="120vh"></a></li>
-			  		<li role="presentation"><a href="#lexi" data-toggle="tab"><img class="img-circle" src="img/lexi.jpg" height="120vh"></a></li>
-			  		<li role="presentation"><a href="#chris" data-toggle="tab"><img class="img-circle" src="img/chris.jpg" height="120vh"></a></li>
-			  		<li role="presentation"><a href="#toby" data-toggle="tab"><img class="img-circle" src="img/toby.jpg" height="120vh"></a></li>
-				</ul>
-			</div>
-
-			<div class="tab-content">
-				<div class="tab-pane active" id="peter">
-					<p></p>
-					<h2>Peter Lyons</h2>
-					<h5 class="muted" style="small">Co-Founder</h5>
-					<p>Peter Lyons is a 4th year computer engineering student at Queen's University. </p>
-				</div>
-				<div class="tab-pane" id="heather">
-					<h2>Heather Wilcocks-Gynn</h2>
-					<h5 class="muted" style="small">Co-Founder</h5>
-					<p>meow meow BKKKAKAAWWWWK</p>
-				</div>
-				<div class="tab-pane" id="lexi">
-					<h2>Lexi Kaplin</h2>
-					<h5 class="muted" style="small">Co-Founder</h5>
-					<p>meow meow BKKKAKAAWWWWK</p>
-				</div>
-				<div class="tab-pane" id="chris">
-					<h2>Chris Angelatos</h2>
-					<h5 class="muted" style="small">Co-Founder</h5>
-					<p>meow meow BKKKAKAAWWWWK</p>
-				</div>
-				<div class="tab-pane" id="toby">
-					<h2>Tobias Macfarlane</h2>
-					<h5 class="muted" style="small">Co-Founder</h5>
-					<p>meow meow BKKKAKAAWWWWK</p>
-				</div>
-			</div>
-
-	<!--
-			<div class="row">
-				<div class="col-md-4">
-					<img class="img-circle" src="img/lexi.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h2>Lexi Kaplin</h2>
-					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-				</div>
-				<div class="col-md-4">
+            <br>
+	
+			<div class="row" id="team-photos">
+				<div class="col-md-2 col-md-offset-1">
 					<img class="img-circle" src="img/peter.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h2>Peter Lyons</h2>
+					<h3 id="names">Peter Lyons</h3>
 					<h5 class="muted" style="small">Co-Founder</h5>
-					<p>Peter Lyons is a 4th year computer engineering student at Queen's University. </p>
 				</div>
-				<div class="col-md-4">
-					<img class="img-circle" src="img/heather.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h2>Heather Wilcocks-Gynn</h2>
-					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
-					<img class="img-circle" src="img/toby.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h2>Tobias Macfarlane</h2>
-					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-				</div>
-				<div class="col-md-4">
+				<div class="col-md-2">
 					<img class="img-circle" src="img/chris.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h2>Chris Angelatos</h2>
-					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+					<h3 id="names">Chris Angelatos</h3>
+					<h5 class="muted" style="small">Co-Founder</h5>
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<img class="img-circle" src="img/heather.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h3 id="long-name">Heather Wilcocks-Gynn</h3>
+					<h5 class="muted" style="small">Co-Founder</h5>
+				</div>
+				<div class="col-md-2">
+					<img class="img-circle" src="../img/lexi.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h3 id="names">Lexi Kaplin</h3>
+					<h5 class="muted" style="small">Co-Founder</h5>
+				</div>
+				<div class="col-md-2">
+					<img class="img-circle" src="img/toby.jpg" alt="Generic placeholder image" width="140" height="140">
+					<h3 id="names">Tobias Macfarlane</h3>
+					<h5 class="muted" style="small">Co-Founder</h5>
+				</div>
 			</div>
-		</div> -->
 		</div>
-	</div>
-		<footer class="footer">
-			<div class="container">
-			    <p class="pull-right"><a href="#">Back to top</a></p>
-			    <p>&copy; 2015 Lumos &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-			</div>
-		</footer>
+		<br>
+	</div> 
+</div>
+
+    <footer class="footer" id="footer">
+        <div class="container" id="footer">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2015 Lumos &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
