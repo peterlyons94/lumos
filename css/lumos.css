@@ -55,6 +55,52 @@
     min-height:70vh;
 
 }
+#masthead-blog{
+	/*
+	background-color: #122f7f;
+	min-height: 500px;
+	position: relative;
+	text-align: left;
+	padding-top: 100px;
+*/
+    background-color: rgba(0,0,0,0.1);
+	background: url("../img/team.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 60vh;
+
+}
+
+#masthead-science{
+	/*
+	background-color: #122f7f;
+	min-height: 500px;
+	position: relative;
+	text-align: left;
+	padding-top: 100px;
+*/
+    background-color: rgba(0,0,0,0.1);
+	background: url("../img/science.jpg") no-repeat center center fixed; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 60vh;
+
+}
+
+#blog-title{
+	font-size: 72px;
+}
+#masthead-blog > .container{
+	color: white;
+
+}
+
 input.btn-primary {
   margin-top: 15px;
 }
@@ -106,6 +152,18 @@ h1{
 	color: white;
 	font-weight: bold;
 	padding-right: 10px;
+	color: black;
+}
+#science{
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+	padding-right: 10px;
+}
+#science > a{color:black;}
+#home{
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+	padding-right: 10px;
 }
 
 #blog > a{
@@ -113,8 +171,8 @@ h1{
 }
 
 /* Still need to fix the hover over color*/
-#blog  :active{
-	background-color: black;
+#blog  :hover{
+	color:black;
 }
 
 #newsletter{
