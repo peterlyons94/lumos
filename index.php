@@ -8,6 +8,7 @@
     <meta name="description" content="Welcome to Lumos Energy Strips, Canada's first naturally caffeinated dissolvable strips." /> 
 	<meta name="keywords" content="Lumos Home Page" />
 	<meta name="msvalidate.01" content="366C59477DB33F1EBE14D295839B2A59" />
+	<meta http-equiv="cache-control" content="public"/>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/lumos.css" rel="stylesheet">
@@ -50,7 +51,7 @@
 		</nav>
 		<div class="container">
 			<div align="center" style="padding-top: 5vh">
-				<img alt="Lumos" src="img/navbar-logo.png" align="middle" height="40%">
+				<img alt="Lumos" src="img/navbar-logo.png" align="middle" width="45%">
 			</div>
 			<h2 class="text-center" id="slogan">The future of caffeine.</h2>
 		</div>

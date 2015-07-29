@@ -77,25 +77,26 @@
 			</div>
 		</div>
 		<hr class="featurette-divider" style="margin-top: 10px; margin-bottom: 15px;">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="row">
-					<h2>Medium</h2>
-				</div>
-				<div class="row">
-					<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@hwg1/the-future-of-caffeine-44e206c828b0">The Future of Caffeine</a>
-				</div>
-			</div>	
-			<div class="col-md-6">
-				<div class="row">
-					<h2>Facebook</h2>
-				</div>
-				<div class="row">
-					<div class="fb-page" data-href="https://www.facebook.com/lumosenergystrips" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
-				</div>
+		<div class="col-md-6">
+			<div class="row">
+				<h2>Medium</h2>
+			</div>
+			<div class="row">
+				<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@0tm6/the-international-startup-festival-1eee956ab2b3">The International Startup Festival</a>
+			</div>
+			<br>
+			<div class="row">
+				<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@hwg1/the-future-of-caffeine-44e206c828b0">The Future of Caffeine</a>
+			</div>
+		</div>	
+		<div class="col-md-6">
+			<div class="row">
+				<h2>Facebook</h2>
+			</div>
+			<div class="row">
+				<div class="fb-page" data-href="https://www.facebook.com/lumosenergystrips" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
 			</div>
 		</div>
-
 	</div>
 
 
