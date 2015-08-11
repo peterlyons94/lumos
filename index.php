@@ -46,6 +46,7 @@
 		    <ul class="nav navbar-nav navbar-right">
 		    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>
 		    	<li id="blog"><a href="http://lumosenergy.co/blog">Blog</a></li>
+		    	<li id="blog"><a href="http://lumosenergy.co/contact">Contact</a></li>
 		    </ul>
 		  </div>
 		</nav>
@@ -159,7 +160,7 @@ punch far above their weight class in caffeine, and in flavour.</p>
 
 <!--End mc_embed_signup-->
 
-<!--TODO team -->
+<!--TODO team
 	<div id="team-wrapper">
 		<div class="container" id="team-container">
 			<div class="row">
@@ -200,7 +201,7 @@ punch far above their weight class in caffeine, and in flavour.</p>
 		<br>
 	</div> 
 </div>
-
+ -->
     <footer class="footer" id="footer">
         <div class="container" id="footer">
             <p class="pull-right"><a href="#">Back to top</a></p>

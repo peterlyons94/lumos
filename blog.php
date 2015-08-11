@@ -57,19 +57,21 @@
 		    </div>
 		    <ul class="nav navbar-nav navbar-right">
 		    	<li id="blog"><a href="http://lumosenergy.co">Home</a></li>
-		    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>
+		    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>	
+	    		<li id="blog"><a href="http://lumosenergy.co/contact">Contact</a></li>
 		    </ul>
 		  </div>
 		</nav>
 		<div class="container">
-			<div align="center" style="padding-top: 5vh">
+			<div align="center" style="padding-top: 8vh">
 				<h1 id="blog-title">Blog</h1>
 			</div>
 			<h2 class="text-center" id="slogan">Keep up with the team.</h2>
 		</div>
 
 	</div>
-
+	<br>
+	<br>
 	<div class="container" id="blog-container">
 		<div class="row">
 			<div class="col-md-12 text-center">

@@ -48,6 +48,7 @@
 		    <ul class="nav navbar-nav navbar-right">
 		    	<li id="science"><a href="http://lumosenergy.co">Home</a></li>
 		    	<li id="science"><a href="http://lumosenergy.co/blog">Blog</a></li>
+		    	<li id="science"><a href="http://lumosenergy.co/contact">Contact</a></li>
 		    </ul>
 		  </div>
 		</nav>
