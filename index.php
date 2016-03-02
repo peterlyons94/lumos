@@ -54,8 +54,38 @@
 			<div align="center" style="padding-top: 5vh">
 				<img alt="Lumos" src="img/navbar-logo.png" align="middle" width="45%">
 			</div>
-			<h2 class="text-center" id="slogan">The future of caffeine.</h2>
+
+			<h2 class="text-center" id="slogan">Dissolve a strip on your tongue. Feel the boost immediately.</h2>
+			<div id="sign-up">
+				<form action="//lumosenergy.us11.list-manage.com/subscribe/post?u=32384dbcec15cbe35f458a753&amp;id=4ce782bd35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+	                    <div class="col-md-6 col-md-offset-3" id="" style="background-color: rgba(0,0,0,0.77);">
+	                        <div class="row">
+	                            <div class="col-md-12 text-center">	
+	                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="color: white; font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now</h2></label>
+	                            </div>
+	                        </div>
+	                        <div class="row">
+	                            <div class="col-md-12">
+	                                <p id="newsletter-p" class="text-center" style="color:white;">Lumos is almost ready for launch, sign up here to become the first to experience the future of caffeine.</p>
+	                            </div>
+	                        </div>
+	                        <br>
+	                        <div class="row" style="padding-bottom: 3vh; padding-left: 1vh;">
+	                            <div class="col-md-9">
+	                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="you@email.com" required>
+	                            </div>
+	                            <div class="col-md-3">
+	                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_32384dbcec15cbe35f458a753_4ce782bd35" tabindex="-1" value=""></div>
+	                                <div class="clear"><input type="submit" value="Sign-up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
+	                            </div>
+	                        </div>
+	                    </div>
+				    </div>
+				</form>
+			</div>
 		</div>
+
 
 	</div>
 
@@ -80,7 +110,7 @@
 			<div class="col-md-3">
 				<img src="img/check_icon.png" alt="Generic placeholder image" width="140" height="140">
 				<h2>Healthy</h2>
-				<p>Error 404: No calories found in strip. Just kidding its not an error. You’re welcome. </p>
+				<p>Error 404: No calories found in strip. Just kidding it's not an error. You’re welcome. </p>
 			</div>
 			<div class="col-md-3">
 				<img class="img-circle" src="img/coffee_cup_icon.png" alt="Generic placeholder image" width="140" height="140">
@@ -122,86 +152,7 @@ punch far above their weight class in caffeine, and in flavour.</p>
 
 	</div>
 
-<!--TODO Email Form -->
-
-<!-- Begin MailChimp Signup Form -->
-<div id="newsletter"> 
-	<div class="container" id="newsletter">
-		<div id="mc_embed_signup">
-			<form action="//lumosenergy.us11.list-manage.com/subscribe/post?u=32384dbcec15cbe35f458a753&amp;id=4ce782bd35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			    <div id="mc_embed_signup_scroll">
-                    <div class="col-md-6 col-md-offset-3" id="transparent-newsletter" style="background-color: rgba(0,0,0,0.77);">
-                        <div class="row">
-                            <div class="col-md-12 text-center">	
-                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="color: white; font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Stay Tuned</h2></label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p id="newsletter-p" class="text-center" style="color:white;">We'll let you know when our product is available for order!</p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-9">
-                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="you@email.com" required>
-                            </div>
-                            <div class="col-md-3">
-                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_32384dbcec15cbe35f458a753_4ce782bd35" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
-                            </div>
-                        </div>
-                    </div>
-			    </div>
-			</form>
-		</div>
-	</div>
-
-
 <!--End mc_embed_signup-->
-
-<!--TODO team
-	<div id="team-wrapper">
-		<div class="container" id="team-container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 style="font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; " >The Team</h2>
-				</div>
-			</div>
-            <br>
-	
-			<div class="row" id="team-photos">
-				<div class="col-md-2 col-md-offset-1">
-					<img class="img-circle" src="img/peter.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h3 id="names">Peter Lyons</h3>
-					<h5 class="muted" style="small">Co-Founder</h5>
-				</div>
-				<div class="col-md-2">
-					<img class="img-circle" src="img/chris.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h3 id="names">Chris Angelatos</h3>
-					<h5 class="muted" style="small">Co-Founder</h5>
-				</div>
-				<div class="col-md-2">
-					<img class="img-circle" src="img/heather.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h3 id="long-name">Heather Wilcocks-Gynn</h3>
-					<h5 class="muted" style="small">Co-Founder</h5>
-				</div>
-				<div class="col-md-2">
-					<img class="img-circle" src="img/lexi.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h3 id="names">Lexi Kaplin</h3>
-					<h5 class="muted" style="small">Co-Founder</h5>
-				</div>
-				<div class="col-md-2">
-					<img class="img-circle" src="img/toby.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h3 id="names">Tobias Macfarlane</h3>
-					<h5 class="muted" style="small">Co-Founder</h5>
-				</div>
-			</div>
-		</div>
-		<br>
-	</div> 
-</div>
- -->
     <footer class="footer" id="footer">
         <div class="container" id="footer">
             <p class="pull-right"><a href="#">Back to top</a></p>

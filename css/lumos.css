@@ -52,7 +52,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height:70vh;
+    min-height:100vh;
 
 }
 #masthead-blog{
@@ -214,13 +214,10 @@ h1{
 	padding-top: 20px;
 }
 
-#mc-embedded-subscribe-form{
-	background: url("../img/stars.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+#sign-up{
+	padding-top: 10vh;	
 }
+
 #transparent-newsletter{
 	background:#7f7f7f;
 	background-color: rgba(0,0,0,0.5);
