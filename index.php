@@ -9,7 +9,10 @@
 	<meta name="keywords" content="Lumos Home Page" />
 	<meta name="msvalidate.01" content="366C59477DB33F1EBE14D295839B2A59" />
 	<meta http-equiv="cache-control" content="public"/>
+    
     <!-- Bootstrap -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-visible-master/jquery.visible.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/lumos.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
@@ -32,137 +35,172 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-    <?php include_once("analyticstracking.php") ?>
-	<div id="masthead" >
-		<!--TODO Menu Bar -->
-		<nav class="navbar">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">
-		        <img alt="Lumos" src="img/navbar-logo.png" height="30vh">
-		      </a>
-		    </div>
-		    <ul class="nav navbar-nav navbar-right">
-		    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>
-		    	<li id="blog"><a href="http://lumosenergy.co/blog">Blog</a></li>
-		    	<li id="blog"><a href="http://lumosenergy.co/contact">Contact</a></li>
-		    </ul>
-		  </div>
-		</nav>
-		<div class="container">
-			<div align="center" style="padding-top: 5vh">
-				<img alt="Lumos" src="img/navbar-logo.png" align="middle" width="45%">
+	<body>
+	    <?php include_once("analyticstracking.php") ?>
+	
+	<!-- Header Page -->	
+		<div id="masthead" >
+			<!--TODO Menu Bar -->
+			<nav class="navbar">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#">
+			        <img alt="Lumos" src="img/navbar-logo.png" height="30vh">
+			      </a>
+			    </div>
+			    <ul class="nav navbar-nav navbar-right">
+			    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>
+			    	<li id="blog"><a href="http://lumosenergy.co/blog">Blog</a></li>
+			    	<li id="blog"><a href="http://lumosenergy.co/contact">Contact</a></li>
+			    </ul>
+			  </div>
+			</nav>
+			<div class="container">
+				<div align="center" style="padding-top: 5vh">
+					<img alt="Lumos" src="img/navbar-logo.png" align="middle" width="45%">
+				</div>
+
+				<h2 class="text-center" id="slogan">Dissolve a strip on your tongue. Feel the boost immediately.</h2>
+				<div id="sign-up">
+					<form action="//lumosenergy.us11.list-manage.com/subscribe/post?u=32384dbcec15cbe35f458a753&amp;id=4ce782bd35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    <div id="mc_embed_signup_scroll">
+		                    <div class="col-md-6 col-md-offset-3" id="" style="background-color: rgba(0,0,0,0.77);">
+		                        <div class="row">
+		                            <div class="col-md-12 text-center">	
+		                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="color: white; font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now</h2></label>
+		                            </div>
+		                        </div>
+		                        <div class="row">
+		                            <div class="col-md-12">
+		                                <p id="newsletter-p" class="text-center" style="color:white;">Lumos is almost ready for launch, sign up here to become the first to experience the future of caffeine.</p>
+		                            </div>
+		                        </div>
+		                        <br>
+		                        <div class="row" style="padding-bottom: 3vh; padding-left: 1vh;">
+		                            <div class="col-md-9">
+		                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="you@email.com" required>
+		                            </div>
+		                            <div class="col-md-3">
+		                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_32384dbcec15cbe35f458a753_4ce782bd35" tabindex="-1" value=""></div>
+		                                <div class="clear"><input type="submit" value="Sign-up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+					    </div>
+					</form>
+				</div>
 			</div>
 
-			<h2 class="text-center" id="slogan">Dissolve a strip on your tongue. Feel the boost immediately.</h2>
-			<div id="sign-up">
-				<form action="//lumosenergy.us11.list-manage.com/subscribe/post?u=32384dbcec15cbe35f458a753&amp;id=4ce782bd35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				    <div id="mc_embed_signup_scroll">
-	                    <div class="col-md-6 col-md-offset-3" id="" style="background-color: rgba(0,0,0,0.77);">
-	                        <div class="row">
-	                            <div class="col-md-12 text-center">	
-	                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="color: white; font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now</h2></label>
-	                            </div>
-	                        </div>
-	                        <div class="row">
-	                            <div class="col-md-12">
-	                                <p id="newsletter-p" class="text-center" style="color:white;">Lumos is almost ready for launch, sign up here to become the first to experience the future of caffeine.</p>
-	                            </div>
-	                        </div>
-	                        <br>
-	                        <div class="row" style="padding-bottom: 3vh; padding-left: 1vh;">
-	                            <div class="col-md-9">
-	                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="you@email.com" required>
-	                            </div>
-	                            <div class="col-md-3">
-	                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_32384dbcec15cbe35f458a753_4ce782bd35" tabindex="-1" value=""></div>
-	                                <div class="clear"><input type="submit" value="Sign-up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
-	                            </div>
-	                        </div>
-	                    </div>
-				    </div>
-				</form>
-			</div>
+				<div id="scroll-button" style="align: right; padding-right: 2vh">
+					<img id="scroll-button" src="img/down-arrow.png" align="right" width="7%">
+				</div>
 		</div>
 
-
-	</div>
-
-<!-- About product -->
-
-	<div class="container" id="about-container">
-		<!--
-		<div class="row">
-			<div class="col-md-12" id="about-heading">
-				<h1>About</h1>
-			</div>
-		</div>
-		<br>
-		-->
-		<br>
-		<div class="row" id="about-info">
-			<div class="col-md-3">
-				<img src="img/sugar_icon.png" alt="Generic placeholder image" width="140" height="140">
-				<h2>Natural</h2>
-				<p>Instead of sugar, natural and powerful stevia extract is used to sweeten Lumos.</p>
-			</div>
-			<div class="col-md-3">
-				<img src="img/check_icon.png" alt="Generic placeholder image" width="140" height="140">
-				<h2>Healthy</h2>
-				<p>Error 404: No calories found in strip. Just kidding it's not an error. You’re welcome. </p>
-			</div>
-			<div class="col-md-3">
-				<img class="img-circle" src="img/coffee_cup_icon.png" alt="Generic placeholder image" width="140" height="140">
-				<h2>Powerful</h2>
-				<p>Each strip contains caffeine equivalent to 1/2 cup of coffee, at a kick of 40 mg per strip.</p>
-			</div>
-			<div class="col-md-3">
-				<img src="img/plus_icon.png" alt="Generic placeholder image" width="140" height="140">
-				<h2>Effective</h2>
-				<p>Fast acting is our middle name. Thanks to the dissolving absorption, Lumos hits you twice as fast.</p>
-			</div>
-		</div>
-	</div>
-
-<!-- Featurette Container-->
+	<!-- About product -->
 	<div class="container">
-		<hr class="featurette-divider" style="margin-bottom: 25px;">
-		<div class="row featurette">
-			<div class="col-md-4">
-				<h2 class="featurette-heading">wildberry // mint // caramel macchiato</h2>
-				<p class="lead">Pocket sized packs, Lumos goes where you go. These thin strips dissolve on your tongue, and 
-punch far above their weight class in caffeine, and in flavour.</p>
-			</div>
-			<div class="col-md-8">
-				<img class="featurette-image img-responsive center-block" src="img/packaging.png" alt="Generic placeholder image" id="packaging" >
-			</div>
-  		</div>
-  		<hr class="featurette-divider">
-
-		<div class="row featurette">
-			<div class="col-md-7 col-md-push-5">
-		  		<h2 class="featurette-heading">The three G's of <span class="text-muted">natural caffeine.</span></h2>
-		  		<p class="lead">A blend of green coffee extract, guarana, and green tea extract come together to deliver the energy boost you’ve been waiting for.</p>
-			</div>
-            <div class="col-md-5 col-md-pull-7">
-		  	   <img class="featurette-image img-responsive center-block" src="img/extract_icon.png" alt="Generic placeholder image">
-            </div>
+		<div class="row"> 
+			<div class="container" id="about-container" style="background-color: white; border-left-width:5vh; border-left-color: green">
+				<div class="row featurette">
+					<div class="col-md-4">
+						<h2 class="featurette-heading">Fresh Mint Flavour</h2>
+						<p class="lead">Pocket sized packs, Lumos goes where you go. These thin strips dissolve on your tongue, and punch far above their weight class in caffeine, and in flavour.</p>
+					</div>
+					<div class="col-md-8">
+						<img class="featurette-image img-responsive center-block" src="img/packaging.png" alt="Generic placeholder image" id="packaging" >
+					</div>
+		  		</div>
+				<hr class="featurette-divider">
+				<div class="row" id="about-info">
+					<div class="col-md-3">
+						<img src="img/sugar_icon.png" alt="Generic placeholder image" width="140" height="140">
+						<h2>Natural</h2>
+						<p>Instead of sugar, natural and powerful stevia extract is used to sweeten Lumos.</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/check_icon.png" alt="Generic placeholder image" width="140" height="140">
+						<h2>Healthy</h2>
+						<p>Error 404: No calories found in strip. Just kidding it's not an error. You’re welcome. </p>
+					</div>
+					<div class="col-md-3">
+						<img class="img-circle" src="img/coffee_cup_icon.png" alt="Generic placeholder image" width="140" height="140">
+						<h2>Powerful</h2>
+						<p>Each strip contains caffeine equivalent to 1/2 cup of coffee, at a kick of 40 mg per strip.</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/plus_icon.png" alt="Generic placeholder image" width="140" height="140">
+						<h2>Effective</h2>
+						<p>Fast acting is our middle name. Thanks to the dissolving absorption, Lumos hits you twice as fast.</p>
+					</div>
+				</div>
+		</div>
 		</div>
 
+		<!-- Pop Up Modal -->		
+		<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="signupModalLabel">Pre-order Now!</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</div>
 
-<!--End mc_embed_signup-->
-    <footer class="footer" id="footer">
-        <div class="container" id="footer">
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2015 Lumos &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </div>
-    </footer>
+	<!-- Featurette Container-->
+		<div class="container">
+			<hr class="featurette-divider" style="margin-bottom: 25px;">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	  		<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7 col-md-push-5">
+			  		<h2 class="featurette-heading">The three G's of <span class="text-muted">natural caffeine.</span></h2>
+			  		<p class="lead">A blend of green coffee extract, guarana, and green tea extract come together to deliver the energy boost you’ve been waiting for.</p>
+				</div>
+	            <div class="col-md-5 col-md-pull-7">
+			  	   <img class="featurette-image img-responsive center-block" src="img/extract_icon.png" alt="Generic placeholder image">
+	            </div>
+			</div>
+		</div>
+
+
+
+		<!--- Footer -->
+	    <footer class="footer" id="footer">
+	        <div class="container" id="footer">
+	            <p class="pull-right"><a href="#">Back to top</a></p>
+	            <p>&copy; 2015 Lumos &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+
+	        </div>
+	    </footer>
+
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+	</body>
+
+	<script type="text/javascript">
+		
+		// Call modal on click, also the scroll
+		$("#scroll-button").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#about-container").offset().top},
+		        'slow');
+		    $('#signupModal').modal('show');
+		});
+		
+		// on scroll popup  modal
+		if($('#masthead').visible(true)){
+			$('signupModal').modal('show');
+		}
+	</script>
 </html>
