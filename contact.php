@@ -37,21 +37,20 @@
 	<!-- Begin page -->
 	<div id="masthead-contact" >
 		
-		<!--Menu Bar -->
-		<nav class="navbar">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">
-		        <img alt="Lumos" src="img/navbar-logo.png" height="30vh">
-		      </a>
-		    </div>
-		    <ul class="nav navbar-nav navbar-right">
-		    	<li id="blog"><a href="http://lumosenergy.co">Home</a></li>
-		    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>
-		    	<li id="blog"><a href="http://lumosenergy.co/blog">Blog</a></li>
-		    </ul>
-		  </div>
-		</nav>
+			<!--TODO Menu Bar -->
+			<nav class="navbar" >
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="http://lumosenergystrips.com" style="padding-top: 8px;">
+			        <img alt="Lumos" src="img/lumos_tm_white.png" height="30vh">
+			      </a>
+			    </div>
+			    <ul class="nav navbar-nav navbar-right">
+			    	<li id="blog"><a href="http://lumosenergystrips.com/blog">Blog</a></li>
+			    	<li id="blog"><a href="http://lumosenergystrips.com/contact">Contact</a></li>
+			    </ul>
+			  </div>
+			</nav>
 		<div class="container">
 			<div align="center" style="padding-top: 5vh">
 				<h1 id="contact-title">Contact</h1>
@@ -64,13 +63,13 @@
 		<br>
 		<br>
 		<div class="row" id="lumos-team">
-			<div class="col-md-3 col-md-offset-1">
-				<img src="img/navbar-logo-black.png" alt="Generic placeholder image" height="140">
-			</div>
 			<div class="col-md-4">
 				<br>
 				<br>
 				<p>Feel free to contact us at any time! We're working hard to get ready for launch, but we'll do our best to respond as soon as possible.</p>	
+			</div>
+			<div class="col-md-4">
+				<img src="img/Lumos_logo_tm.png" alt="Generic placeholder image" height="140">
 			</div>
 			<div class="col-md-4">
 				<br>
@@ -124,7 +123,7 @@
 			</div>
 			<div class="col-md-4">
 				<h3>Heather Wilcocks-Gynn <script src="//platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/heather-wilcocks-gynn/84/41a/603" data-format="hover" data-related="false"></script></h3>
-				<p>Co-Founder and Director of Business Development</p>
+				<p>Co-Founder and Director of Marketing and Finance</p>
 			</div>
 		</div>
 	</div>

@@ -47,21 +47,20 @@
 	<!-- Begin page -->
 	<div id="masthead-blog" >
 		
-		<!--Menu Bar -->
-		<nav class="navbar">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">
-		        <img alt="Lumos" src="img/navbar-logo.png" height="30vh">
-		      </a>
-		    </div>
-		    <ul class="nav navbar-nav navbar-right">
-		    	<li id="blog"><a href="http://lumosenergy.co">Home</a></li>
-		    	<li id="blog"><a href="http://lumosenergy.co/science">Science</a></li>	
-	    		<li id="blog"><a href="http://lumosenergy.co/contact">Contact</a></li>
-		    </ul>
-		  </div>
-		</nav>
+			<!--TODO Menu Bar -->
+			<nav class="navbar" >
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="http://lumosenergystrips.com" style="padding-top: 8px;">
+			        <img alt="Lumos" src="img/lumos_tm_white.png" height="30vh">
+			      </a>
+			    </div>
+			    <ul class="nav navbar-nav navbar-right">
+			    	<li id="blog"><a href="http://lumosenergystrips.com/blog">Blog</a></li>
+			    	<li id="blog"><a href="http://lumosenergystrips.com/contact">Contact</a></li>
+			    </ul>
+			  </div>
+			</nav>
 		<div class="container">
 			<div align="center" style="padding-top: 8vh">
 				<h1 id="blog-title">Blog</h1>

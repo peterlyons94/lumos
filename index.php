@@ -40,24 +40,25 @@
 	
 	<!-- Header Page -->	
 		<div id="masthead">
+
 			<!--TODO Menu Bar -->
 			<nav class="navbar" >
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <a class="navbar-brand" href="#">
-			        <img alt="Lumos" src="img/navbar-logo.png" height="30vh">
+			      <a class="navbar-brand" href="http://lumosenergystrips.com" style="padding-top: 8px;">
+			        <img alt="Lumos" src="img/Lumos_logo_tm.png" height="30vh">
 			      </a>
 			    </div>
 			    <ul class="nav navbar-nav navbar-right">
-			    	<li id="blog"><a href="http://lumosenergy.co/blog">Blog</a></li>
-			    	<li id="blog"><a href="http://lumosenergy.co/contact" >Contact</a></li>
+			    	<li id="blog"><a href="http://lumosenergystrips.com/blog">Blog</a></li>
+			    	<li id="blog"><a href="http://lumosenergystrips.com/contact">Contact</a></li>
 			    </ul>
 			  </div>
 			</nav>
 
-			<div class="container">
+			<div class="container" id="logo-container">
 				<div align="center" style="padding-top: 5vh">
-					<img alt="Lumos" src="img/Lumos_logo_tm.png" align="middle" width="45%">
+					<img alt="Lumos" src="img/lumos_tm_white.png" align="middle" width="45%">
 				</div>
 
 				<h2 class="text-center" id="slogan">Dissolve a strip on your tongue. Feel the boost immediately.</h2>
@@ -65,10 +66,10 @@
 				<div id="sign-up" class="container-fluid">
 					<form action="//lumosenergy.us11.list-manage.com/subscribe/post?u=32384dbcec15cbe35f458a753&amp;id=4ce782bd35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					    <div id="mc_embed_signup_scroll">
-		                    <div class="col-md-6 col-md-offset-3" id="" style="background-color: rgba(0,0,0,0.6);">
+		                    <div class="col-md-6 col-md-offset-3" id="" style="background-color: rgba(0,161,120,0.4);">
 		                        <div class="row">
 		                            <div class="col-md-12 text-center">	
-		                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="color: white; font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now</h2></label>
+		                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="color: white; font-size: 8vh; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now</h2></label>
 		                            </div>
 		                        </div>
 		                        <div class="row">
@@ -78,7 +79,7 @@
 		                        </div>
 		                        <br>
 		                        <div class="row" style="padding-bottom: 3vh; padding-left: 1vh;">
-		                            <div class="col-md-9">
+		                            <div class="col-md-9 col-xs-7">
 		                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="you@email.com" required>
 		                            </div>
 		                            <div class="col-md-3">
@@ -90,14 +91,14 @@
 					    </div>
 					</form>
 				</div>
-			</div>
-			<div class="container-fluid"> 
-				<div class="row" id="scroll-button" style="align: right; padding-right: 2vh">
-					<div class="col-md-10 col-xs-6" align="right" style="margin-top: 1em">
-						<h3 style="color: white">Enter.</h3>
-					</div>
-					<div class="col-md-1 col-xs-6" >
-						<img id="scroll-button" src="img/down-arrow.png" style="max-height: 10vh;">
+				<div class="container-fluid" style="padding-top: 2vh; padding-bottom: 2vh;"> 
+					<div class="row" id="scroll-button" style="padding-right: 2vh">
+						<div class="col-md-6 col-xs-6" align="right" style="margin-top: 1em">
+							<h3 style="color: white">Enter.</h3>
+						</div>
+						<div class="col-md-6 col-xs-6" >
+							<img id="scroll-button" src="img/down-arrow.png" style="max-height: 10vh;">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -158,7 +159,7 @@
 			                    <div class="container-fluid" id="">
 			                        <div class="row">
 			                            <div class="col-md-12 text-center">	
-			                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="font-size: 64px; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now!</h2></label>
+			                                <label for="mce-EMAIL"><h2 id="news-heading" class="text-center" style="font-size: 8vh; font-family: 'Maven Pro', sans-serif; font-weight: 500; ">Pre-order Now!</h2></label>
 			                            </div>
 			                        </div>
 			                        <div class="row">
@@ -188,7 +189,7 @@
 			<!-- Featurette Container-->
 			<div class="container" style="padding-bottom: 3vh;">
 		  		<hr class="featurette-divider">
-
+				
 				<div class="row featurette">
 					<div class="col-md-7 col-md-push-5">
 				  		<h2 class="featurette-heading">The three G's of <span class="text-muted">natural caffeine.</span></h2>
@@ -222,6 +223,7 @@
 		
 		// Call modal on click, also the scroll
 		$("#scroll-button").click(function() {
+		    
 		    document.getElementById('load-on-click').style.display = "block";
 
 		    $('html, body').animate({
